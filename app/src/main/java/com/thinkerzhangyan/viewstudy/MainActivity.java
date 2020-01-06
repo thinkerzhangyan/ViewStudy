@@ -9,11 +9,13 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.thinkerzhangyan.viewstudy.location_transfrom.ViewLocationTransformActivity;
+import com.thinkerzhangyan.viewstudy.scroller.ViewScrollerActivity;
 
 public class MainActivity extends AppCompatActivity {
 
 
     private TextView mLocationTransfromText;
+    private TextView mScrollerText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ViewLocationTransformActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mScrollerText = findViewById(R.id.text_scroller);
+        mScrollerText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ViewScrollerActivity.class);
                 startActivity(intent);
             }
         });

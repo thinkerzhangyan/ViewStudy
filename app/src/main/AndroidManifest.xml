@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".location_transfrom.ViewLocationTransformActivity">
         </activity>
+        <activity android:name=".scroller.ViewScrollerActivity">
+        </activity>
     </application>
 
 </manifest>

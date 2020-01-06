@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thinkerzhangyan.viewstudy.scroller.ScrollerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="#FFDDDEDD"-->
+        <!--android:gravity="center"-->
+        <!--android:text="A" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="#FFCCCEDD"-->
+        <!--android:gravity="center"-->
+        <!--android:text="B" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="#FFCCCEAD"-->
+        <!--android:gravity="center"-->
+        <!--android:text="C" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="This is first child view"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="This is second child view"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="This is third child view"/>
+
+</com.thinkerzhangyan.viewstudy.scroller.ScrollerLayout>
