@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.thinkerzhangyan.viewstudy.fling.GestureActivity;
 import com.thinkerzhangyan.viewstudy.location_transfrom.ViewLocationTransformActivity;
 import com.thinkerzhangyan.viewstudy.scroller.ViewScrollerActivity;
 
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView mLocationTransfromText;
     private TextView mScrollerText;
+    private TextView mGestureText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ViewScrollerActivity.class);
+                startActivity(intent);
+            }
+        });
+        mGestureText = findViewById(R.id.text_gesture);
+        mGestureText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, GestureActivity.class);
                 startActivity(intent);
             }
         });
