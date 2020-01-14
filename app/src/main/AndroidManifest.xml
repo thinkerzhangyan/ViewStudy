@@ -20,7 +20,11 @@
         </activity>
         <activity android:name=".scroller.ViewScrollerActivity">
         </activity>
-        <activity android:name=".fling.GestureActivity">
+        <activity android:name=".gesture.GestureActivity">
+        </activity>
+        <activity android:name=".gesture.fling.GestureDectorActivity">
+        </activity>
+        <activity android:name=".gesture.demo.BallActivity">
         </activity>
     </application>
 

@@ -1,4 +1,4 @@
-package com.thinkerzhangyan.viewstudy.fling;
+package com.thinkerzhangyan.viewstudy.gesture.fling;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import com.thinkerzhangyan.viewstudy.R;
 
-public class GestureActivity extends Activity {
+public class GestureDectorActivity extends Activity {
 
     /**
      * Touch listener which intercepts and delegates touch events, while tracking movement velocity
@@ -29,7 +29,7 @@ public class GestureActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gesture);
+        setContentView(R.layout.activity_gesture_dector);
 
         // Instantiate a gesture listener to consume scroll and fling events
         FlingDetector flingDetector = new FlingDetector();

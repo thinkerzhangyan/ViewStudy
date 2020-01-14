@@ -3,12 +3,12 @@ package com.thinkerzhangyan.viewstudy;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.thinkerzhangyan.viewstudy.fling.GestureActivity;
+import com.thinkerzhangyan.viewstudy.gesture.GestureActivity;
+import com.thinkerzhangyan.viewstudy.gesture.demo.BallActivity;
+import com.thinkerzhangyan.viewstudy.gesture.fling.GestureDectorActivity;
 import com.thinkerzhangyan.viewstudy.location_transfrom.ViewLocationTransformActivity;
 import com.thinkerzhangyan.viewstudy.scroller.ViewScrollerActivity;
 
@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
 
     }
 }
