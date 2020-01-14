@@ -97,8 +97,6 @@ public class FailingBall extends View {
     }
 
     @Override protected void onDraw(Canvas canvas) {
-        //canvas.drawRect(mRect, mPaint);
-        canvas.drawOval(mRect, mPaint);
         canvas.drawBitmap(mBitmap, new Rect(0, 0, mBitmap.getWidth(), mBitmap.getHeight()),
                           mRect, mPaint);
     }
